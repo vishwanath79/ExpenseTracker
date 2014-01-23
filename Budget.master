@@ -1,0 +1,38 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Budget.master.vb" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Expense Tracker
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <a href="http://www.usairways.com">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/US_Airways_Logo.svg/200px-US_Airways_Logo.svg.png" 
+                    style="height: 57px; width: 116px; border-width: 0px" /></a></div>
+            <div class="clear hideSkiplink">
+            </div>
+        </div>
+        <div class="main">
+            
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
